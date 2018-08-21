@@ -1,5 +1,5 @@
 'use strict'
 
-var helloWorld = 'Hello World';
+let helloWorld = 'Hello World';
 
 console.log(helloWorld);
