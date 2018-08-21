@@ -1,5 +1,10 @@
 'use strict'
 
-let helloWorld = 'Hello World';
+const separated = ['hola ','mundo']
+let text;
 
-console.log(helloWorld);
+separated.forEach(function(i) {
+  text+=i;
+})
+
+console.log(text);
